@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="morandoso.android.com">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_morandoso"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_morandoso"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splah"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".emergencia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".alimentacao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".localize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".limpeza"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manutencao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".saude"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".alimentacao_webview"
+            android:label="@string/title_activity_alimentacao_webview"
+            android:parentActivityName=".alimentacao"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="morandoso.android.com.alimentacao" />
+        </activity>
+    </application>
+
+</manifest>

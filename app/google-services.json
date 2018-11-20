@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "60862684343",
+    "firebase_url": "https://morando-so-2018.firebaseio.com",
+    "project_id": "morando-so-2018",
+    "storage_bucket": "morando-so-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60862684343:android:20a33bd912d60fde",
+        "android_client_info": {
+          "package_name": "morandoso.android.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60862684343-shkr5eu6erkvuet7nhto8tv3jsnvfe0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "morandoso.android.com",
+            "certificate_hash": "11399d1bacaaba0d8534f0dda61bfc2a2d4debf9"
+          }
+        },
+        {
+          "client_id": "60862684343-uagn5utstta26kel4hi5m2aervjt2la1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhEGQ90cxkg_OfRl4f4fIb78NeeUPkU1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60862684343-uagn5utstta26kel4hi5m2aervjt2la1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

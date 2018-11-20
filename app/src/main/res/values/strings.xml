@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Morando Só</string>
+    <string name="textoEmergencia">Clique nos ícones Abaixo para Ligar diretamente para os números emergenciais!</string>
+    <string name="title_activity_alimentacao_webview">alimentacao_webview</string>
+</resources>
